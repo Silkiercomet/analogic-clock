@@ -104,7 +104,9 @@ a{
     display: grid;
 }
 /* clock */
-
+.clock{
+    margin: auto;
+}
 .clock-container{
     height: 100vh;
     grid-template-rows: 1fr max-content;
@@ -219,6 +221,32 @@ a{
     z-index: var(--z-normal);
 }
 
-
-
 /* clock */
+
+/* date an time */
+
+.clock-text{
+    display: flex;
+    justify-content: center;
+
+}
+.clock-text-hour,
+.clock-text-minute{
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+}
+.clock-text-time{
+    font-size: var(--tiny-font-size);
+    font-weight: var(--font-medium);
+    margin-left: var(--mb-0-25);
+}
+
+.clock-date{
+    text-align: center;
+    font-size: var(--small-font-size);
+    font-weight: var(--body-color);
+}
+
+
+/* date an time */
