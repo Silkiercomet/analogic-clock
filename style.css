@@ -225,7 +225,7 @@ a{
 
 /* date an time */
 
-.clock-text{
+.first{
     display: flex;
     justify-content: center;
 
@@ -241,8 +241,11 @@ a{
     font-weight: var(--font-medium);
     margin-left: var(--mb-0-25);
 }
-
+.xd{
+    display: block;
+}
 .clock-date{
+    
     text-align: center;
     font-size: var(--small-font-size);
     font-weight: var(--body-color);
