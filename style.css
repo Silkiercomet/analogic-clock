@@ -51,7 +51,7 @@ body.dark-theme {
 }
 
 /*========== Button Dark/Light ==========*/
-.clock__theme {
+.clock-theme {
   position: absolute;
   top: -1rem;
   right: -1rem;
@@ -65,14 +65,14 @@ body.dark-theme {
 }
 
 /*========== Box shadow Dark theme ==========*/
-.dark-theme .clock__circle {
+.dark-theme .clock-circle {
   box-shadow: 6px 6px 16px hsla(var(--hue-color), 8%, 12%, 1), 
               -6px -6px 16px hsla(var(--hue-color), 8%, 20%, 1), 
               inset -6px -6px 16px hsla(var(--hue-color), 8%, 20%, 1), 
               inset 6px 6px 12px hsla(var(--hue-color), 8%, 12%, 1);
 }
 
-.dark-theme .clock__theme {
+.dark-theme .clock-theme {
   box-shadow: inset -1px -1px 1px hsla(var(--hue-color), 8%, 20%, 1), 
               inset 1px 1px 1px hsla(var(--hue-color), 8%, 12%, 1);
 }
@@ -253,3 +253,13 @@ a{
 
 
 /* date an time */
+
+@media screen and (min-width: 968px) {
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .clock-logo {
+      margin-bottom: 3rem;
+    }
+  }
